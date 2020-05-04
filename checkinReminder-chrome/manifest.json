@@ -1,0 +1,17 @@
+{
+  "name": "Basecamp Checkin Reminder",
+  "version": "1.0",
+  "description": "Simple extension that opens Basecamp at 4:30",
+  "permissions": ["alarms", "tabs"],
+  "background": {
+    "scripts": ["script.js"],
+    "persistent": false
+  },
+  "icons": {
+    "16": "/images/16x16.jpeg",
+    "32": "/images/32x32.jpeg",
+    "48": "/images/48x48.jpeg",
+    "128": "/images/128x128.jpeg"
+  },
+  "manifest_version": 2
+}
